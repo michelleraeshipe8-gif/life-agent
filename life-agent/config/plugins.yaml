@@ -1,0 +1,63 @@
+# Plugin Configuration
+# Enable/disable plugins by commenting/uncommenting
+
+enabled_plugins:
+  # Core plugins (always enabled)
+  - memory
+  - conversation
+  
+  # Default enabled plugins
+  - personal_memory
+  - smart_reminders
+  - calendar_integration
+  - basic_financial
+  - relationship_manager
+  
+  # Available plugins (uncomment to enable)
+  # - health_tracker
+  # - home_management
+  # - travel_planner
+  # - shopping_deals
+  # - content_curator
+  # - learning_tracker
+  # - mental_health
+  # - photo_organizer
+  # - voice_interface
+  
+  # Business plugins
+  # - shopify_connector
+  # - customer_intelligence
+  # - content_generator
+  # - market_research
+  # - automation_workflows
+
+# Plugin-specific settings
+plugin_settings:
+  personal_memory:
+    auto_log_messages: true
+    retention_days: 365
+    
+  smart_reminders:
+    location_based: true
+    context_aware: true
+    
+  calendar_integration:
+    default_calendar: primary
+    sync_interval_minutes: 15
+    
+  basic_financial:
+    auto_categorize: true
+    budget_alerts: true
+    monthly_budget: 0  # 0 = no budget limit
+    
+  relationship_manager:
+    check_in_interval_days: 14
+    birthday_reminder_days: 7
+    
+  health_tracker:
+    daily_checkin: false
+    medication_reminders: true
+    
+  voice_interface:
+    language: en-US
+    voice_speed: 1.0

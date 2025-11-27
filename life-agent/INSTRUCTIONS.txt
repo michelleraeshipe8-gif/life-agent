@@ -1,0 +1,5 @@
+DOUBLE-CLICK START.bat
+
+That's it.
+
+It will ask for your API keys, then run.
